@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: salmon;
+  font-family: cursive;
+  font-size: 18px;
+}
+
+.container {
+  background-color: pink;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+
+
+}
+
+.container textarea {
+  border-radius: 10px;
+  font-family: sans-serif;
+  width: 100%;
+  align-items: center;
+  height: 100px;
+  resize: none;
+  padding: 10px;
+  box-sizing: border-box;
+  
+}
+
+.counterCountainer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-family: cursive;
+}
+.counterCountainer p{
+  font-size: 18px;
+  color: gray;
+}
+
+.totalCounter {
+  color: blue;
+}
+
+.remaningCounter{
+  color: darkred;
+}
